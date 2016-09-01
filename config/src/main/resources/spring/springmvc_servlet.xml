@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-          p:prefix="/page" p:suffix=".html"/>
+          p:prefix="/pages/" p:suffix=".html"/>
     <mvc:resources mapping="/css/**" location="/css/"/>
     <mvc:resources mapping="/image/**" location="/images/"/>
     <mvc:resources mapping="/js/**" location="/js/"/>
