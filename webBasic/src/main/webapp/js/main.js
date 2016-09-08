@@ -40,7 +40,7 @@
 		
 	  	$('#fh5co-hero .flexslider').flexslider({
 			animation: "fade",
-			slideshowSpeed: 5000,
+			slideshowSpeed: 7000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
@@ -213,3 +213,24 @@
 
 
 }());
+
+function activeThis(obj){
+	$(obj).parent().addClass("cta").siblings().removeClass("cta");
+	var index =$(obj).attr("data-index");
+	switch(index) {
+		case '1':
+			$("#bygone").show();
+			$(".frame[id!='bygone']").hide();
+			break;
+		case '2':
+			$("#topic").show();
+			$(".frame[id!='topic']").hide();
+			break;
+		case '3':
+
+			break;
+		case '4':
+
+			break;
+	}
+}

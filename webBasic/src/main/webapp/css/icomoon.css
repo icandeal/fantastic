@@ -36,12 +36,12 @@
 .icon-envelope-o:before {
     content: "\f003";
 }
-.icon-heart:before {
-    content: "\f004";
-}
-.icon-star:before {
-    content: "\f005";
-}
+/*.icon-heart:before {*/
+    /*content: "\f004";*/
+/*}*/
+/*.icon-star:before {*/
+    /*content: "\f005";*/
+/*}*/
 .icon-star-o:before {
     content: "\f006";
 }
@@ -120,9 +120,9 @@
 .icon-play-circle-o:before {
     content: "\f01d";
 }
-.icon-repeat:before {
-    content: "\f01e";
-}
+/*.icon-repeat:before {*/
+    /*content: "\f01e";*/
+/*}*/
 .icon-rotate-right:before {
     content: "\f01e";
 }
@@ -144,12 +144,12 @@
 .icon-volume-off:before {
     content: "\f026";
 }
-.icon-volume-down:before {
-    content: "\f027";
-}
-.icon-volume-up:before {
-    content: "\f028";
-}
+/*.icon-volume-down:before {*/
+    /*content: "\f027";*/
+/*}*/
+/*.icon-volume-up:before {*/
+    /*content: "\f028";*/
+/*}*/
 .icon-qrcode:before {
     content: "\f029";
 }
@@ -261,12 +261,12 @@
 .icon-backward:before {
     content: "\f04a";
 }
-.icon-play:before {
-    content: "\f04b";
-}
-.icon-pause:before {
-    content: "\f04c";
-}
+/*.icon-play:before {*/
+    /*content: "\f04b";*/
+/*}*/
+/*.icon-pause:before {*/
+    /*content: "\f04c";*/
+/*}*/
 .icon-stop:before {
     content: "\f04d";
 }
@@ -333,9 +333,9 @@
 .icon-mail-forward:before {
     content: "\f064";
 }
-.icon-share:before {
-    content: "\f064";
-}
+/*.icon-share:before {*/
+    /*content: "\f064";*/
+/*}*/
 .icon-expand:before {
     content: "\f065";
 }
