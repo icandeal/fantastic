@@ -23,12 +23,12 @@ body {
 }
 
 .chat-thread {
-    background: rgba(0, 0, 0, 0);// -moz-linear-gradient(-45deg, #183850 0px, #183850 25%, #192c46 50%, #22254c 75%, #22254c 100%) no-repeat fixed 0 0;
-    margin: 24px auto 0 auto;
-    padding: 0 20px 0 0;
+    /*background: rgba(0, 0, 0, 0) -moz-linear-gradient(-45deg, #183850 0px, #183850 25%, #192c46 50%, #22254c 75%, #22254c 100%) no-repeat fixed 0 0;*/
+    margin: 0 auto 0 auto;
+    padding: 150px 20px 0 0;
     list-style: none;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /*overflow-y: scroll;*/
+    /*overflow-x: hidden;*/
 }
 
 .chat-thread li {
@@ -132,7 +132,7 @@ body {
 @media all and (min-width: 768px) {
     .chat-thread {
         width: 50%;
-        height: 320px;
+        /*height: 320px;*/
     }
 
     .chat-window {
